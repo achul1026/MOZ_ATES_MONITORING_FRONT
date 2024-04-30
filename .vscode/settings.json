@@ -1,0 +1,20 @@
+{
+    // other settings
+    "tailwindCSS.experimental.classRegex": [
+      ["Classes \\=([^;]*)", "'([^']*)'"],
+      ["Classes \\=([^;]*)", "\"([^\"]*)\""],
+      ["Classes \\=([^;]*)", "\\`([^\\`]*)\\`"],
+      ["className \\=([^;]*)", "\\`([^\\`]*)\\`"],
+      ["className \\=([^;]*)", "\"([^\"]*)\""],
+      ["TwCss \\=([^;]*)", "\\`([^\\`]*)\\`"]
+    ],
+    "tailwindCSS.classAttributes": ["class", "className", "ngClass", ".*Styles", ".*TwCss"],
+    "tailwindCSS.includeLanguages": {
+      "javascript": "javascript",
+      "html": "HTML",
+      "plaintext": "javascript",
+    },
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  }
